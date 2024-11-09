@@ -1,0 +1,30 @@
+.header {
+  box-shadow: #c4c4c4 1px 1px 5px 0px;
+}
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+}
+.stepCurrent {
+  color: #040f17;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 20px;
+  width: 100%;
+  height: 100%;
+}

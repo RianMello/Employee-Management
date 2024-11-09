@@ -1,0 +1,93 @@
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.errorMessage {
+  font-size: 0.7rem;
+  padding: 0.2rem;
+  color: red;
+}
+
+.profileImg {
+  width: 40%;
+  height: 90%;
+  padding: 0;
+}
+
+.profileImgContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  width: 100%;
+  height: 100%;
+}
+.profileImgActions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10px;
+}
+.profileImgActions button {
+  padding: 6px 0 6px 0;
+}
+.profileImgActions .label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.profileImgActions .label .text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #040f17;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.buttons button {
+  border-radius: 18px;
+  height: 30px;
+  font-size: 12px;
+  padding: 12px 18px 12px 18px;
+}
+
+.containerPDF {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.containerPDF p {
+  color: #7d8991;
+}
+.containerPDF p strong {
+  color: #040f17;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  margin-bottom: 10px;
+}
+.box h2 {
+  color: #2582c4;
+  font-weight: 700;
+  font-size: 24px;
+}
+.box h3 {
+  color: #040f17;
+  font-weight: 700;
+}
